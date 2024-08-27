@@ -1,0 +1,88 @@
+table{
+    margin: 15px auto;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+th, td{
+    text-align: left;
+    font-size: 10px;
+    padding: 15px;
+}
+th{
+    font-weight: bold;
+    background-color: rgb(249, 245, 245); 
+}
+img{
+    width: 25px;
+    height: 25px ;
+    border: 1px solid;
+    border-radius: 50%;
+    color: white;
+    vertical-align: middle;
+}
+tr:nth-child(even) td{
+    background-color: rgb(249, 245, 245);
+}
+tr:nth-child(2) td:nth-child(5) button{
+    border: none;
+    border-radius: 10px;
+    background: #a7e4ad;
+    color: #14631c;
+    padding: 5px;
+    font-size: 10px;
+}
+tr:nth-child(1) td:nth-child(5) button{
+    border: none;
+    border-radius: 10px;
+    background: #a7e4ad;
+    color: #14631c;
+    padding: 5px;
+    font-size: 10px;
+}
+tr:nth-child(3) td:nth-child(5) button{
+    border: none;
+    border-radius: 10px;
+    background: #ec909c;
+    color: #871126;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 10px;
+}
+tr:nth-child(4) td:nth-child(5) button{
+    border: none;
+    border-radius: 10px;
+    background: #9fceec;
+    color: #143563;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+}
+tr:nth-child(5) td:nth-child(5) button{
+    border: none;
+    border-radius: 10px;
+    background: #e1e874;
+    color: #776a6e;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+}
+tr:nth-child(6) td:nth-child(5) button{
+    border: none;
+    border-radius: 10px;
+    background: #e1e874;
+    color: #776a6e;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+}
+td:nth-child(6){
+    font-weight: bold;
+}
